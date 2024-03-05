@@ -4,4 +4,4 @@
 
 const { factories } = require('@strapi/strapi')
 
-export default factories.createCoreService('api::portfolio-blog.portfolio-blog');
+module.exports = factories.createCoreService('api::portfolio-blog.portfolio-blog');

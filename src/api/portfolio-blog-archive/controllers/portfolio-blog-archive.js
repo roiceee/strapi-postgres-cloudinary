@@ -2,6 +2,8 @@
  * portfolio-blog-archive controller
  */
 
-const { factories } = require('@strapi/strapi')
+const { factories } = require("@strapi/strapi");
 
-export default factories.createCoreController('api::portfolio-blog-archive.portfolio-blog-archive');
+module.exports = factories.createCoreController(
+  "api::portfolio-blog-archive.portfolio-blog-archive"
+);

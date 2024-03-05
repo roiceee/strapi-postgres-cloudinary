@@ -4,4 +4,4 @@
 
 const { factories } = require('@strapi/strapi')
 
-export default factories.createCoreRouter('api::portfolio-blog-archive.portfolio-blog-archive');
+module.exports = factories.createCoreRouter('api::portfolio-blog-archive.portfolio-blog-archive');

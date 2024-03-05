@@ -4,4 +4,4 @@
 
 const { factories } = require('@strapi/strapi')
 
-export default factories.createCoreController('api::portfolio-blog-tag.portfolio-blog-tag');
+module.exports = factories.createCoreController('api::portfolio-blog-tag.portfolio-blog-tag');
